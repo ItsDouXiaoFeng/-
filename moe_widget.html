@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Moe Girl</title>
+<title>Loli Moe Widget</title>
 <style>
-  body, html {
+  html, body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     height: 100%;
+    overflow: hidden;
     background: #000;
   }
   img {
@@ -18,22 +18,21 @@
     display: block;
   }
 </style>
-  
 <script>
 async function loadImage() {
   try {
-    const res = await fetch("https://api.waifu.pics/sfw/waifu");
+    const res = await fetch("https://api.waifu.im/sfw/loli");
     const data = await res.json();
-    // 给 URL 加一个随机查询参数，避免缓存
-    document.getElementById("pic").src = data.url + "?v=" + new Date().getTime();
+    document.getElementById("pic").src = data.images[0].url + "?v=" + new Date().getTime();
   } catch(e) {
     console.error(e);
   }
 }
+
 window.onload = loadImage;
 </script>
 </head>
 <body>
-  <img id="pic" src="" alt="moe girl">
+  <img id="pic" src="" alt="Loli Moe">
 </body>
 </html>
