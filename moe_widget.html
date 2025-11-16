@@ -18,12 +18,14 @@
     display: block;
   }
 </style>
+  
 <script>
 async function loadImage() {
   try {
     const res = await fetch("https://api.waifu.pics/sfw/waifu");
     const data = await res.json();
-    document.getElementById("pic").src = data.url;
+    // 给 URL 加一个随机查询参数，避免缓存
+    document.getElementById("pic").src = data.url + "?v=" + new Date().getTime();
   } catch(e) {
     console.error(e);
   }
