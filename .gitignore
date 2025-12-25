@@ -1,0 +1,34 @@
+# Scala/sbt
+target/
+project/target/
+project/project/
+.bsp/
+.metals/
+.bloop/
+.scala-build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.envrc
+
+# Docker
+docker-compose.override.yml
+
+# Test
+test-output/
